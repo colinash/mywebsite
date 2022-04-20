@@ -6,23 +6,25 @@
         <title>Colin Ash Porfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Pathway+Gothic+One&display=swap">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/b094ea54bb.js" crossorigin="anonymous"></script>
         
     </head>
     <body>
         <header>
             <div class="logo">
-                <img src="" alt="logo-pic">
+                <img src="img/logo.png" alt="logo-pic">
             </div>
-            <button class="nav-toggle" aria-label="toggel navigation">
+            <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="home" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="services" class="nav-link">My Services</a></li>
-                    <li class="nav-item"><a href="about" class="nav-link">About Me</a></li>
-                    <li class="nav-item"><a href="work" class="nav-link">My Work</a></li>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">My Skills</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#work" class="nav-link">My Work</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,28 +34,35 @@
             <h1 class="section-title section-title-intro">
             Hi, I am <strong>Colin Ash</strong>
             </h1>
-            <p class="section-subtitle section-subtitle-intro">Full-Stack Dev</p>
-            <img src="" alt="me-headshot">
+            <p class="section-subtitle section-subtitle-intro">Programmer</p>
+            <img class= "intro-img" src="img/me.png" alt="me-headshot">
         </section>
 
         <!--Services-->
         <section class="my-services" id="services">
-            <h2 class="section-title section-title-services">What I do</h2>
+            <h2 class="section-title section-title-services">My Skills</h2>
             <div class="services">
 
                 <div class="service">
-                    <h3>Service 1</h3>
-                    <p></p>
+                    <h3>Skill 1</h3>
+                    <p>Nunc aliquam nunc in neque porttitor sodales. Proin in mi et erat facilisis congue. Etiam eget nisi efficitur, tincidunt ligula non, 
+                        aliquet lorem. Vivamus placerat libero ut rutrum posuere. 
+                        Nunc orci libero, maximus sit amet pretium sit amet, volutpat dictum ex. Proin tempus, mauris in commodo elementum, elit massa facilisis.
+                    </p>
                 </div>
 
                 <div class="service">
-                    <h3>Service 2</h3>
-                    <p></p>
+                    <h3>Skill 2</h3>
+                    <p>Nunc aliquam nunc in neque porttitor sodales. Proin in mi et erat facilisis congue. Etiam eget nisi efficitur, tincidunt ligula non, 
+                        aliquet lorem. Vivamus placerat libero ut rutrum posuere. 
+                        Nunc orci libero, maximus sit amet pretium sit amet, volutpat dictum ex. Proin tempus, mauris in commodo elementum, elit massa facilisis.</p>
                 </div>
 
                 <div class="service">
-                    <h3>Service 3</h3>
-                    <p></p>
+                    <h3>Skill 3</h3>
+                    <p>Nunc aliquam nunc in neque porttitor sodales. Proin in mi et erat facilisis congue. Etiam eget nisi efficitur, tincidunt ligula non, 
+                        aliquet lorem. Vivamus placerat libero ut rutrum posuere. 
+                        Nunc orci libero, maximus sit amet pretium sit amet, volutpat dictum ex. Proin tempus, mauris in commodo elementum, elit massa facilisis.</p>
                 </div>
 
             </div>
@@ -65,55 +74,72 @@
         <!--About Me-->
         <section class="about-me" id="about">
             <h2 class="section-title section-title-about">Who I am</h2>
-            <p class="section-subtitle section-subtitle-about"></p>
+            <p class="section-subtitle section-subtitle-about">Computer Programmer based out of Ottawa, Ontario</p>
             <div class="about-me-body">
-                <p></p>
-                <p></p>
+                <p> I am confident in developing and maintaining websites, reviewing sites for opportunities for continuous improvement, 
+                    and ensuring accuracy and alignment with the client’s expectations. 
+                    I am trained in responsive web design and am experienced using HTML, CSS and JavaScript 
+                    and pick up new applications quickly and independently.
+                </p>
+                <p>
+                    Having owned my own business and working in the service industry, I am confident performing quality work  
+                    in a high pressure environment and am skilled at translating technical knowledge for business clients. 
+                    This experience has solidified my collaborative and consultative skills which would allow me to provide exceptional customer service to your company's other internal teams.
+                </p>
             </div>
 
-            <img src="" alt="another pic of me">
+            <img src="img/about-me-img.png" alt="another pic of me" class="about-me-img">
         </section>
 
         <!--My Work-->
 
         <section class="my-work" id="work">
-            <h2 class="section-title">My Work</h2>
-            <p class="section-subtitle"></p>
+            <h2 class="section-title section-title-work">My Work</h2>
+            <p class="section-subtitle section-subtitle-work">A selection of my range of work</p>
 
             <div class="portfolio">
 
                 <!--Portfolio Item 01-->
-                <a href="#" class="portfolio-item">
-                    <img src="" alt="portfolio-img">
+                <a href="portfolio-item-1.html" class="portfolio-item">
+                    <img class= "portfolio-img" src="img/portfolio-1.png" alt="portfolio-img">
                 </a>
 
                 <!--Portfolio Item 02-->
-                <a href="#" class="portfolio-item">
-                    <img src="" alt="portfolio-img">
+                <a href="portfolio-item-2.html" class="portfolio-item">
+                    <img class= "portfolio-img" src="img/portfolio-2.png" alt="portfolio-img">
                 </a>
 
                 <!--Portfolio Item 03-->
-                <a href="#" class="portfolio-item">
-                    <img src="" alt="portfolio-img">
+                <a href="portfolio-item-3.html" class="portfolio-item">
+                    <img class= "portfolio-img" src="img/portfolio-3.png" alt="portfolio-img">
                 </a>
 
                 <!--Portfolio Item 04-->
-                <a href="#" class="portfolio-item">
-                    <img src="" alt="portfolio-img">
+                <a href="portfolio-item-4.html" class="portfolio-item">
+                    <img class= "portfolio-img" src="img/portfolio-4.png" alt="portfolio-img">
                 </a>
             </div>
         </section>
 
         <!--Footer-->
-        <footer>
+        <footer class="footer">
             <a href="mailto:colingash@gmail.com" class="footer-link">colingash@gmail.com</a>
             <ul class="socials">
-                <li class="socials-item"><a class="socials-link" 
-                    href="www.linkedin.com/in/colingash">linkedin</a></li>
-                <li class="socials-item"><a class="socials-link" 
-                    href="https://github.com/colinash">github</a></li>
+                <li class="socials-item">
+                    <a class="socials-link" href="https://github.com/colinash">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="socials-item">
+                    <a class="socials-link" href="https://linkedin.com/in/colingash">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
             </ul>
         </footer>
+
+        <script src="index.js"></script>
 
     </body>
 </html>
